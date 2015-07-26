@@ -1,5 +1,9 @@
 
-## Below function creates a "matrix" object which can cache its inverse.
+## Below function (makeCacheMatrix) creates a special "matrix" object which can cache its inverse.In addition to this, it creates a list which will
+#1. set the value of the matrix
+#2. get the value of the matrix
+#3. set the value of the inverse of the matrix
+#4. get the value of the inverse of the matrix
 
 makeCacheMatrix <- function(x = matrix()) {
   
